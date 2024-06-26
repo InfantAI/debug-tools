@@ -52,7 +52,7 @@ export const pushFunctions = [
         url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/instaanswer/test/file/1702200014467.mp3",
         version: "1.0.1"
       },
-      MQType: "devicedoll_msg",
+      MQType: "devicedoll_msg_public",
       deviceCode: "{deviceCode}"
     },
     {

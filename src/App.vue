@@ -20,8 +20,14 @@ const chageDeviceCodel = () => {
 
 const SendData = (curr) => {
   console.log(curr)
+  let currTopic = ''
+  if(curr.MQType === 'devicedoll_msg_public'){
+    currTopic = curr.MQType
+  }else{
+    currTopic = curr.MQType + '_' + deviceCodeData.value
+  }
   const rebuildData = {
-    topic: curr.MQType + '_' + deviceCodeData.value,
+    topic: currTopic,
     data: {
       typeflag: curr.typeflag, //  推送类型
       jsonData: curr.jsonData,//json格式的内容 
