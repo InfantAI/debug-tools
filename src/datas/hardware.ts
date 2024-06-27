@@ -57,7 +57,7 @@ export const pushFunctions = [
     },
     {
       FunctionName: "软件（算法）升级",
-      typeflag: 4, // 假设软件升级的typeflag是4
+      typeflag: 2, // 假设软件升级的typeflag是4
       jsonData: {
         url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/instaanswer/test/file/1702200014467.mp3",
         version: "1.0.1"
