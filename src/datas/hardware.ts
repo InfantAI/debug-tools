@@ -20,28 +20,37 @@ export const pushFunctions = [
     {
       FunctionName: "重置WIFI",
       typeflag: 3,
-      jsonData: {},
+      jsonData: {"wifiname":"ssiiid", 
+    "wifipwd":"ddwef"  },
       MQType: "devicedoll_msg",
       deviceCode: "{deviceCode}"
     },
     {
       FunctionName: "新增网络",
       typeflag: 4,
-      jsonData: {},
+      jsonData: {"wifiname":"ssiiid", 
+    "wifipwd":"ddwef" },
       MQType: "devicedoll_msg",
       deviceCode: "{deviceCode}"
     },
     {
       FunctionName: "停用设备",
       typeflag: 5,
-      jsonData: {},
+      jsonData: {"typeflag":3 },
       MQType: "devicedoll_msg",
       deviceCode: "{deviceCode}"
     },
     {
       FunctionName: "重置设备",
       typeflag: 6,
-      jsonData: {},
+      jsonData: {"typeflag":6},
+      MQType: "devicedoll_msg",
+      deviceCode: "{deviceCode}"
+    },
+    {
+      FunctionName: "远程进行停止",
+      typeflag: 7,
+      jsonData: {"typeflag":7},
       MQType: "devicedoll_msg",
       deviceCode: "{deviceCode}"
     },
@@ -59,10 +68,10 @@ export const pushFunctions = [
       FunctionName: "软件（算法）升级",
       typeflag: 2, // 假设软件升级的typeflag是4
       jsonData: {
-        url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/instaanswer/test/file/1702200014467.mp3",
+        url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/instaanswer/test/file/1810895195076558848.so",
         version: "1.0.1"
       },
-      MQType: "devicedoll_msg",
+      MQType: "devicedoll_msg_public",
       deviceCode: "{deviceCode}"
     },
     {
