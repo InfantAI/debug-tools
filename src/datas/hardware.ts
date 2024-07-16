@@ -20,8 +20,8 @@ export const pushFunctions = [
     {
       FunctionName: "重置WIFI",
       typeflag: 3,
-      jsonData: {"wifiname":"ssiiid", 
-    "wifipwd":"ddwef"  },
+      jsonData: {"wifiname":"KD", 
+    "wifipwd":"Kd@112345"  },
       MQType: "devicedoll_msg",
       deviceCode: "{deviceCode}"
     },
