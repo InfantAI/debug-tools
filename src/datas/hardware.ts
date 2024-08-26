@@ -98,8 +98,8 @@ export const pushFunctions = [
       FunctionName: "家长远程对话",
       typeflag: 3,
       jsonData: {
-        type: 3,
-        url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/spider/2/346199.mp3"
+         
+        url: " https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/instaanswer/test/file/1827908339812532224.aac"
       },
       MQType: "educational",
       deviceCode: "{deviceCode}"
