@@ -78,8 +78,8 @@ export const pushFunctions = [
       FunctionName: "课程任务",
       typeflag: 1,
       jsonData: {
-        type: 1,
-        url: "小熊寻找新家，跨过小河，爬过小山，不怕困难，终于找到温暖的家。"
+      
+        url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/spider/2/346199.mp3"
       },
       MQType: "educational",
       deviceCode: "{deviceCode}"
@@ -88,8 +88,8 @@ export const pushFunctions = [
       FunctionName: "儿童训练",
       typeflag: 2,
       jsonData: {
-        type: 2,
-        url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/spider/棕发少女"
+        
+        url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/spider/2/346199.mp3"
       },
       MQType: "educational",
       deviceCode: "{deviceCode}"
@@ -99,7 +99,7 @@ export const pushFunctions = [
       typeflag: 3,
       jsonData: {
         type: 3,
-        url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/spider/《谁吃了我的苹果》EP449  | 睡前故事 | 童話故事 | 儿童故事 | 晚安故事 | 中文绘本故事 | Chinese Fairy Tales - ReadForKids亲子阅读"
+        url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/spider/2/346199.mp3"
       },
       MQType: "educational",
       deviceCode: "{deviceCode}"
