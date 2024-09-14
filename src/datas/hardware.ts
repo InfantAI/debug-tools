@@ -58,7 +58,7 @@ export const pushFunctions = [
       FunctionName: "固件升级",
       typeflag: 1, // 假设固件升级的typeflag是3
       jsonData: {
-        url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/instaanswer/test/file/1805884136120909824.img",
+        url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/instaanswer/test/file/update.tar",
         version: "1.0.1"
       },
       MQType: "devicedoll_msg_public",
