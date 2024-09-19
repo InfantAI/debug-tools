@@ -68,7 +68,7 @@ export const pushFunctions = [
       FunctionName: "软件（算法）升级",
       typeflag: 2, // 假设软件升级的typeflag是4
       jsonData: {
-        url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/instaanswer/test/file/1810895195076558848.so",
+        url: "https://gadget-oss.oss-ap-southeast-5.aliyuncs.com/instaanswer/test/file/1836664494613331968otasuanfa.tar",
         version: "1.0.1"
       },
       MQType: "devicedoll_msg_public",
